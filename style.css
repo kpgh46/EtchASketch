@@ -1,0 +1,19 @@
+#maincontainer{
+    height:575px;
+    width: 575px;
+    border: solid black;
+    margin:auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);
+}
+
+.squares{
+    border: 1px solid;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
