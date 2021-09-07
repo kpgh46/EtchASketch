@@ -13,7 +13,7 @@ function addSquares(num){
 addSquares(16);
 
 container.addEventListener("mouseover", function(event) {
-    event.target.style.color = "red";
+    event.target.style.backgroundColor = "red";
 });
 
 
