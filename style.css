@@ -1,3 +1,7 @@
+:root{
+    --column-row:16;
+}
+
 #maincontainer{
     height:575px;
     width: 575px;
@@ -5,8 +9,8 @@
     margin:auto;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16,1fr);
+    grid-template-columns: repeat(var(--column-row), auto);
+    grid-template-rows: repeat(var(--column-row),auto);
 }
 
 .squares{
